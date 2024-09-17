@@ -1,0 +1,40 @@
+.about {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    h1 {
+        text-align: center;
+        padding: 50px;
+    }
+}
+
+.about .cointainer {
+    width: 950px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background: #000;
+
+    img {
+        background: #fff;
+        margin: 10px;
+        height: 300px;
+        width: 30%;
+        border-radius: 10px;
+    }
+
+}
+
+.about .cointainer .textfeild {
+    margin: 10px;
+    height: 300px;
+    width: 60%;
+    border-radius: 10px;
+}

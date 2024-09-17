@@ -1,0 +1,26 @@
+.projects {
+    width: 100%;
+    height: auto;
+    background: #f9f9f9;
+    padding: 100px 0;
+
+    h1 {
+        text-align: center;
+        padding: 60px;
+    }
+}
+
+.projects .cointainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.projects .cointainer .projectfeild {
+    width: 85%;
+    border-radius: 10px;
+    height: 300px;
+    background: #dad9d9;
+
+}
