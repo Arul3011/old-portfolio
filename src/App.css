@@ -71,8 +71,10 @@
 }
 
 .nav {
+  position: fixed;
+  top: 0;
   width: 100%;
-  height: 55px;
+  height: auto;
   box-shadow: 1px 1px 5px gray;
   z-index: 1000;
   background-color: #fff;
