@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
 
 const Home = () => {
+  const [line, setLine] = useState(true);
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 850) {
+      setLine(false);
+    } else {
+      setLine(true);
+    }
+  });
   return (
     <div>
       <div className="home">
@@ -18,16 +26,20 @@ const Home = () => {
       </div>
       <div className="STACK">
         <div className="con">
-          <span>Tech Stack | </span>
-          <img src="https://skillicons.dev/icons?i=html" alt="" />
-          <img src="https://skillicons.dev/icons?i=css" alt="" />
-          <img src="https://skillicons.dev/icons?i=js" alt="" />
-          <img src="https://skillicons.dev/icons?i=react" alt="" />
-          <img src="https://skillicons.dev/icons?i=next" alt="" />
-          <img src="https://skillicons.dev/icons?i=git" alt="" />
-          <img src="https://skillicons.dev/icons?i=github" alt="" />
-          <img src="https://skillicons.dev/icons?i=python" alt="" />
-          <img src="https://skillicons.dev/icons?i=mongodb" alt="" />
+          <span>Tech Stack |</span>
+
+          <div className="stack-imgs">
+            <hr style={{ display: line ? "block" : "none" }} />
+            <img src="https://skillicons.dev/icons?i=html" alt="" />
+            <img src="https://skillicons.dev/icons?i=css" alt="" />
+            <img src="https://skillicons.dev/icons?i=js" alt="" />
+            <img src="https://skillicons.dev/icons?i=react" alt="" />
+            <img src="https://skillicons.dev/icons?i=next" alt="" />
+            <img src="https://skillicons.dev/icons?i=git" alt="" />
+            <img src="https://skillicons.dev/icons?i=github" alt="" />
+            <img src="https://skillicons.dev/icons?i=python" alt="" />
+            <img src="https://skillicons.dev/icons?i=mongodb" alt="" />
+          </div>
         </div>
       </div>
     </div>

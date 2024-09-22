@@ -6,8 +6,19 @@ const About = () => {
     <div className="about">
       <h1>ABOUT ME</h1>
       <div className="cointainer">
-        <img src={logo} alt="" />
-        <div className="textfeild"></div>
+        <img
+          src="https://thumbs.dreamstime.com/b/computer-software-developer-desk-room-office-158615853.jpg"
+          alt=""
+        />
+        <div className="textfeild">
+          <p>
+            I'm a passionate web developer skilled in creating dynamic,
+            user-friendly applications with React, Next.js, and MongoDB. I
+            specialize in building responsive web solutions that deliver
+            seamless user experiences, working across both frontend and backend
+            development.
+          </p>
+        </div>
       </div>
     </div>
   );

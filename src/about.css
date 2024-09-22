@@ -6,6 +6,7 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
+    padding-top: 80px;
 
     h1 {
         text-align: center;
@@ -14,18 +15,18 @@
 }
 
 .about .cointainer {
-    width: 950px;
+    width: 80%;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 350px;
-    background: #000;
+    background-color: #dad9d9;
 
     img {
         background: #fff;
         margin: 10px;
-        height: 300px;
+        height: 250px;
         width: 30%;
         border-radius: 10px;
     }
@@ -37,4 +38,40 @@
     height: 300px;
     width: 60%;
     border-radius: 10px;
+    text-align: center;
+
+    p {
+        padding: 60px 60px;
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 900px) {
+    .about .cointainer {
+        flex-direction: column;
+        height: auto;
+
+        img {
+            margin-top: 30px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+
+    .about .cointainer .textfeild {
+        margin: 10px;
+        height: auto;
+        width: 60%;
+        border-radius: 10px;
+        text-align: center;
+
+        p {
+            padding: 20px 0px;
+            font-size: 1.1em;
+            line-height: 1.5;
+            font-weight: 500;
+        }
+    }
 }
