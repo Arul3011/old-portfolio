@@ -79,7 +79,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 55px;
+  height: auto;
   box-shadow: 1px 1px 5px gray;
   z-index: 1000;
   background-color: #fff;
@@ -95,7 +95,12 @@
 
 .nav h3 {
   width: 50%;
+<<<<<<< HEAD
   margin: auto 20px;
+=======
+  padding: 30px;
+  margin: 0;
+>>>>>>> 52dce4730644df9f8f77aa1d7efdff494a2c8ade
 }
 
 .nav .list {
@@ -272,6 +277,7 @@
     }
   }
 
+<<<<<<< HEAD
 
 }
 
@@ -324,3 +330,14 @@
     }
   }
 } */
+=======
+  /* hr {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    height: 2px;
+    background-color: black;
+    border: none;
+  } */
+}
+>>>>>>> 52dce4730644df9f8f77aa1d7efdff494a2c8ade
