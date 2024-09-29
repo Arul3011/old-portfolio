@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const Home = () => {
   const [line, setLine] = useState(true);
@@ -10,13 +11,26 @@ const Home = () => {
       setLine(true);
     }
   });
+  window.addEventListener("load", () => {
+    if (window.innerWidth > 850) {
+      setLine(false);
+    } else {
+      setLine(true);
+    }
+  });
   return (
     <div>
       <div className="home">
         <div className="one">
-          <h1>Hello..👋</h1>
+          <h1>Hi..There👋</h1>
+          <h2>I'm Arul.</h2>
           <h3>I am a frontent react developer</h3>
-          <p>Hi, I'm Arul. A passionate Front-end React</p>
+          <p> A passionate in Front-end Development</p>
+          <div className="cv-btn">
+            <FaLinkedin />
+            <FaGithubSquare />
+            <button>View CV</button>
+          </div>
         </div>
         <div className="two">
           <div className="imgd">
@@ -26,10 +40,12 @@ const Home = () => {
       </div>
       <div className="STACK">
         <div className="con">
-          <span>Tech Stack |</span>
+          <span>
+            Tech Stack
+            {line ? <hr style={{ width: "90%" }} /> : "|"}
+          </span>
 
           <div className="stack-imgs">
-            <hr style={{ display: line ? "block" : "none" }} />
             <img src="https://skillicons.dev/icons?i=html" alt="" />
             <img src="https://skillicons.dev/icons?i=css" alt="" />
             <img src="https://skillicons.dev/icons?i=js" alt="" />

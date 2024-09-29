@@ -23,6 +23,7 @@ function App() {
       <section id="contect">
         <Contect />
       </section>
+      <footer></footer>
     </>
   );
 }

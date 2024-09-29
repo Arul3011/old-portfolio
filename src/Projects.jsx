@@ -9,14 +9,6 @@ const Projects = () => {
           <img src="" alt="" />
           <div className="projectdet"></div>
         </div>
-        <div className="projectfeild">
-          <img src="" alt="" />
-          <div className="projectdet"></div>
-        </div>
-        <div className="projectfeild">
-          <img src="" alt="" />
-          <div className="projectdet"></div>
-        </div>
       </div>
     </div>
   );

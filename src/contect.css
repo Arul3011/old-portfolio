@@ -1,4 +1,68 @@
 .contect {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        padding: 50px;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 1.5em;
+        margin: 0 auto;
+    }
+
+}
+
+.cointainer-contact {
+    width: 800px;
+}
+
+p.slo {
+    color: red;
+    font-size: 2em;
+}
+
+footer {
+    height: 30vh;
+    width: 100%;
+    background-color: gray;
+}
+
+
+@media (max-width: 980px) {
+    .cointainer-contact {
+        width: 90%;
+    }
+
+    .contect {
+        height: auto;
+        padding-bottom: 50px;
+
+        h1 {
+            padding: 30px;
+        }
+
+        p {
+            font-size: 1em;
+            margin: auto 0;
+            text-align: center;
+
+        }
+
+        p.slo {
+            color: red;
+            font-size: 2em;
+        }
+    }
+
+    footer {
+        height: 20vh;
+        width: 100%;
+        background-color: gray;
+    }
 }
