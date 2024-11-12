@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
@@ -11,13 +11,19 @@ const Home = () => {
       setLine(true);
     }
   });
-  window.addEventListener("load", () => {
-    if (window.innerWidth > 850) {
-      setLine(false);
-    } else {
-      setLine(true);
-    }
+  window.addEventListener("onload", () => {
+    
   });
+  useEffect(()=>{
+    const fun =()=>{
+      if (window.innerWidth > 850) {
+        setLine(false);
+      } else {
+        setLine(true);
+      }
+    }
+    fun()
+  },[])
   return (
     <div>
       <div className="home">
@@ -27,9 +33,12 @@ const Home = () => {
           <h3>I am a frontent react developer</h3>
           <p> A passionate in Front-end Development</p>
           <div className="cv-btn">
-            <FaLinkedin />
-            <FaGithubSquare />
-            <button>View CV</button>
+            <a href="https://in.linkedin.com/in/arul-y-558491270" target="_blank"><FaLinkedin /></a>
+            <a href="https://github.com/Arul3011" target="_blank"><FaGithubSquare /></a>
+            
+            
+            <a href="path/to/yourfile.pdf" target="_blank" className="cv-link">View CV</a>
+
           </div>
         </div>
         <div className="two">

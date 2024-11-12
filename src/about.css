@@ -8,6 +8,7 @@
     margin-bottom: 100px;
     padding-top: 80px;
 
+
     h1 {
         text-align: center;
         padding: 50px;
@@ -22,7 +23,7 @@
     justify-content: center;
     align-items: center;
     height: 350px;
-    background-color: #dad9d9;
+    border: solid black 1px;
 
     img {
         background: #fff;
@@ -39,7 +40,6 @@
     height: 300px;
     width: 60%;
     border-radius: 10px;
-<<<<<<< HEAD
     text-align: center;
 
     p {
@@ -77,6 +77,5 @@
         }
     }
 }
-=======
-}
->>>>>>> e1af086ae646ab2973048d53d2afef769f1dfc96
+
+

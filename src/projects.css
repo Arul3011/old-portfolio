@@ -11,6 +11,7 @@
 }
 
 .projects .cointainer {
+    /* width: 80%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,9 +19,10 @@
 }
 
 .projects .cointainer .projectfeild {
-    width: 85%;
+    width: 80%;
     border-radius: 10px;
     height: 300px;
-    background: #dad9d9;
+    border: solid black 1px;
+
 
 }
