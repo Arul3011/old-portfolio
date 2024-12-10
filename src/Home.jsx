@@ -30,14 +30,14 @@ const Home = () => {
         <div className="one">
           <h1>Hi..There👋</h1>
           <h2>I'm Arul.</h2>
-          <h3>I am a frontent react developer</h3>
-          <p> A passionate in Front-end Development</p>
+          <h3>I am a Web developer</h3>
+          <p> Passionate about developing web applications</p>
           <div className="cv-btn">
             <a href="https://in.linkedin.com/in/arul-y-558491270" target="_blank"><FaLinkedin /></a>
             <a href="https://github.com/Arul3011" target="_blank"><FaGithubSquare /></a>
             
             
-            <a href="/ARUL.pdf" target="_blank" >View CV</a>
+            <a href="/ARUL.pdf" target="_blank" className="cv-link" >View CV</a>
              
 
           </div>
