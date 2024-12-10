@@ -58,12 +58,15 @@ const Home = () => {
             <img src="https://skillicons.dev/icons?i=html" alt="" />
             <img src="https://skillicons.dev/icons?i=css" alt="" />
             <img src="https://skillicons.dev/icons?i=js" alt="" />
+            <img src="https://skillicons.dev/icons?i=python" alt="" />
             <img src="https://skillicons.dev/icons?i=react" alt="" />
             <img src="https://skillicons.dev/icons?i=next" alt="" />
             <img src="https://skillicons.dev/icons?i=git" alt="" />
             <img src="https://skillicons.dev/icons?i=github" alt="" />
-            <img src="https://skillicons.dev/icons?i=python" alt="" />
             <img src="https://skillicons.dev/icons?i=mongodb" alt="" />
+            <img src="https://skillicons.dev/icons?i=expressjs" alt="" />
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="" />
+            <img src="https://skillicons.dev/icons?i=flask" alt="" />
           </div>
         </div>
       </div>
