@@ -11,7 +11,6 @@
 }
 
 .projects .cointainer {
-    /* width: 80%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,10 +18,33 @@
 }
 
 .projects .cointainer .projectfeild {
-    width: 80%;
+    width: 400px;
     border-radius: 10px;
-    height: 300px;
+    height: 400px;
     border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
+}
+.projects .cointainer .projectfeild h2{
+    padding: 15px;
+}
+.projects .cointainer .projectfeild img{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
+.projects .cointainer .projectfeild .projectdet{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.projects .cointainer .projectfeild .projectdet a{
+font-size: 3.5em;
+color: black;
 }
