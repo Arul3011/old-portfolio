@@ -37,7 +37,8 @@ const Home = () => {
             <a href="https://github.com/Arul3011" target="_blank"><FaGithubSquare /></a>
             
             
-            <a href="path/to/yourfile.pdf" target="_blank" className="cv-link">View CV</a>
+            <a href="/ARUL.pdf" target="_blank" >View CV</a>
+             
 
           </div>
         </div>

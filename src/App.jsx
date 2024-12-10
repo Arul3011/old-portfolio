@@ -1,6 +1,7 @@
 import About from "./About";
 import "./App.css";
 import Contect from "./Contect";
+import Footer from "./Footer";
 import Home from "./Home";
 import Nav from "./Nav";
 import Projects from "./Projects";
@@ -23,7 +24,7 @@ function App() {
       <section id="contect">
         <Contect />
       </section>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
