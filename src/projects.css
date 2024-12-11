@@ -12,7 +12,8 @@
 
 .projects .cointainer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     row-gap: 40px;
 }
@@ -26,16 +27,26 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 
 }
-.projects .cointainer .projectfeild h2{
-    padding: 15px;
+  .projectfeild:hover{
+        box-shadow: 3px 8px 10px 1px  gray;
+        cursor: pointer;
+            scale: 1.01;
+    }
+.projects .cointainer .projectfeild p{
+    text-transform: capitalize;
+    font-size: x-large;
+   margin-top: 20px;
 }
 .projects .cointainer .projectfeild img{
     width: 80%;
     height: 60%;
     border-radius: 10px;
     margin-top: 20px;
+    border: solid gray 1px;
+  
 }
 
 .projects .cointainer .projectfeild .projectdet{
@@ -47,4 +58,25 @@
 .projects .cointainer .projectfeild .projectdet a{
 font-size: 3.5em;
 color: black;
+}
+.projects .cointainer .projectfeild .projectdet a:hover{
+    scale: 1.1;
+    transition: all ease-in-out;
+}
+
+
+@media (max-width: 500px){
+.projects .cointainer .projectfeild p {
+font-size: medium;
+}
+.projects .cointainer .projectfeild {
+   width: 80%;
+}
+.projects .cointainer .projectfeild .projectdet a{
+    font-size: 2em;
+}
+.projects .cointainer .projectfeild {
+height: 300px;
+}
+
 }

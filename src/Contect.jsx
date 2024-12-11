@@ -8,7 +8,7 @@ const Contect = () => {
         <p>
           Feel free to reach out for collaboration opportunities, project
           inquiries, or any questions via.<a href="mailto:Arul261@outlook.com">Arul261@outlook.com</a>
-          <p className="slo">I'd love to connect!</p>
+          <p className="slo">I do love to connect!</p>
         </p>
       </div>
     </div>

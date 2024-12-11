@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact</h3>
-          <p>Email: <a href="Arul261@outlook.com">Arul261@outlook.com</a></p>
-          <p>Phone: <a href="tel:+919344569319">+1 (234) 567-890</a></p>
+          <p>Email: <a href="mailto:Arul261@outlook.com">Arul261@outlook.com</a></p>
+          <p>Phone: <a href="tel:+919344569319">+91 9344569319</a></p>
         </div>
 
         <div className="footer-section">
@@ -30,9 +30,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* <div className="footer-bottom">
-        <p>&copy; Arul. All Rights Reserved.</p>
-      </div> */}
+
     </footer>
   );
 };
