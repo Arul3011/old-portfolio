@@ -9,7 +9,7 @@ const Projects = () => {
   title:"tnea Admission Predictor",
   img:"/tneacouns.jpg",
   gitLink:"",
-  liveLink:""
+  liveLink:"https://counselingpredictor.vercel.app/"
   },
  {
   title:"Wast Management System",
