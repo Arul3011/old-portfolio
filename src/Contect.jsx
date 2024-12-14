@@ -4,7 +4,7 @@ const Contect = () => {
   return (
     <div className="contect">
       <div className="cointainer-contact">
-        <h1>CONTECT</h1>
+        <h1>CONTACT</h1>
         <p>
           Feel free to reach out for collaboration opportunities, project
           inquiries, or any questions via.<a href="mailto:Arul261@outlook.com">Arul261@outlook.com</a>
