@@ -12,7 +12,7 @@ const Projects = () => {
   liveLink:"https://counselingpredictor.vercel.app/"
   },
  {
-  title:"Wast Management System",
+  title:"waste management System",
   img:"/wastrally.png",
   gitLink:"",
   liveLink:""
