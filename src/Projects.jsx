@@ -24,7 +24,7 @@ const Projects = () => {
       <div className="cointainer">
 
         {projects.map((val)=>(
-              <div className="projectfeild">
+              <div className="projectfeild"  data-aos="flip-left">
               <p>{val.title}</p>
               <img src={val.img} alt="image"/>
               <div className="projectdet">

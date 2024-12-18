@@ -3,7 +3,7 @@ import "./about.css";
 import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" data-aos="zoom-in-up">
       <h1>ABOUT ME</h1>
       <div className="cointainer">
         <img

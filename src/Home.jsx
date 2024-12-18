@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
   const [line, setLine] = useState(true);
@@ -11,9 +13,7 @@ const Home = () => {
       setLine(true);
     }
   });
-  window.addEventListener("onload", () => {
-    
-  });
+
   useEffect(()=>{
     const fun =()=>{
       if (window.innerWidth > 850) {
@@ -23,11 +23,24 @@ const Home = () => {
       }
     }
     fun()
-  },[])
+  
+     
+    }, []);
+ 
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          easing: "ease-in-out",
+          once: true,
+        });
+        AOS.refresh();
+      }, []);
+
+
   return (
-    <div>
-      <div className="home">
-        <div className="one">
+    <section>
+      <div  className="home">
+        <div className="one" data-aos="zoom-in-down">
           <h1>Hi..There👋</h1>
           <h2>I'm Arul.</h2>
           <h3>I am a Web developer</h3>
@@ -43,19 +56,19 @@ const Home = () => {
           </div>
         </div>
         <div className="two">
-          <div className="imgd">
-            <img src={logo} alt="logo" />
+          <div className="imgd"  data-aos="zoom-in">
+            <img src={logo} alt="logo"  />
           </div>
         </div>
       </div>
-      <div className="STACK">
+      <div className="STACK" data-aos="zoom-in-up">
         <div className="con">
           <span>
             Tech Stack
             {line ? <hr style={{ width: "90%" }} /> : "|"}
           </span>
 
-          <div className="stack-imgs">
+          <div className="stack-imgs" >
             <img src="https://skillicons.dev/icons?i=html" alt="" />
             <img src="https://skillicons.dev/icons?i=css" alt="" />
             <img src="https://skillicons.dev/icons?i=js" alt="" />
@@ -71,7 +84,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section >
   );
 };
 
