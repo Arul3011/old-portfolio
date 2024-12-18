@@ -13,8 +13,7 @@
   display: flex;
   margin-top: -10px;
   display: flex;
-
-
+  height: 100vh;
 }
 
 .home .two {
@@ -218,7 +217,6 @@
   .home {
     flex-direction: column-reverse;
     height: auto;
-
   }
 
   .home .two,
@@ -322,7 +320,9 @@
   .cv-btn {
     width: 80%;
   }
- 
+ .home{
+ margin-top: 20px;
+ }
 }
 
 
