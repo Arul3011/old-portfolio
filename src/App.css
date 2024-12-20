@@ -11,9 +11,9 @@
   background: #f9f9f9;
   width: 100%;
   display: flex;
-  margin-top: -10px;
+  padding-top: 40px;
   display: flex;
-  height: 100vh;
+  height: auto;
 }
 
 .home .two {
@@ -72,7 +72,7 @@
 }
 
 .nav {
-  position: sticky;
+  /* position: ; */
   top: 0;
   width: 100%;
   height: 60px;
@@ -114,6 +114,9 @@
   justify-content: center;
   flex-wrap: wrap;
   background: #f9f9f9;
+  padding: 0 50px ;
+  /* background: #000; */
+  align-items: center;
 
   .con {
     display: flex;
@@ -324,7 +327,11 @@
  padding-top: 20px;
  }
 }
-
+@media (max-width:380px){
+  .home p{
+    text-align: center;
+  }
+}
 
  
 
