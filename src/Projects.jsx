@@ -16,6 +16,12 @@ const Projects = () => {
   img:"/wastrally.png",
   gitLink:"",
   liveLink:""
+  },
+  {
+  title:"blog application",
+  img:"/blog.png",
+  gitLink:"https://github.com/Arul3011/blogapp",
+  liveLink:"https://blogapp-pi-seven.vercel.app/"
   }
 ]
   return (
@@ -28,8 +34,8 @@ const Projects = () => {
               <p>{val.title}</p>
               <img src={val.img} alt="image"/>
               <div className="projectdet">
-              <a href={val.gitLink}  title="view project code" ><FaGithub /></a>
-              <a href={val.liveLink}  title="live site" ><CiGlobe /></a>
+              <a href={val.gitLink} target="_blank" title="view project code" ><FaGithub /></a>
+              <a href={val.liveLink}  title="live site" target="_blank" ><CiGlobe /></a>
               </div>
             </div>
         ))}
