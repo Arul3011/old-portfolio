@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <section>
       <div  className="home">
-        <div className="one" data-aos="zoom-in-down">
+        <div className="one" data-aos="zoom-in-up">
           <h1>Hi..There👋</h1>
           <h2>I'm Arul.</h2>
           <h3>I am a Web developer</h3>
