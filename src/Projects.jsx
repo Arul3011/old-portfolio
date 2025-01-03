@@ -8,14 +8,14 @@ const Projects = () => {
   {
   title:"tnea Admission Predictor",
   img:"/tneacouns.jpg",
-  gitLink:"",
+  gitLink:"https://github.com/Arul3011/counselingpredictor.git",
   liveLink:"https://counselingpredictor.vercel.app/"
   },
  {
   title:"waste management System",
   img:"/wastrally.png",
-  gitLink:"",
-  liveLink:""
+  gitLink:"https://github.com/Arul3011/wast-management-app.git",
+  liveLink:"https://wast-management-app.vercel.app/"
   },
   {
   title:"blog application",
