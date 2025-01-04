@@ -41,7 +41,7 @@ const Home = () => {
             <a href="https://github.com/Arul3011" target="_blank"><FaGithubSquare /></a>
             
             
-            <a href="/ARUL.pdf" target="_blank" className="cv-link" >View CV</a>
+            <a href="https://drive.google.com/file/d/1b9JNCcgde23kxvZG9dXSjNh5yWyYTB_P/view?usp=drive_link" target="_blank" className="cv-link" >View CV</a>
              
 
           </div>
