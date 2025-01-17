@@ -2,7 +2,7 @@ import React from "react";
 import "./contect.css";
 const Contect = () => {
   return (
-    <div className="contect" >
+    <div className="contect" id="contect">
       <div className="cointainer-contact" data-aos="zoom-in-up">
         <h1>CONTACT</h1>
         <p>

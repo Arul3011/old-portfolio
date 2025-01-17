@@ -1,35 +1,31 @@
-import React, { useRef } from "react";
-import { IoReorderThreeOutline } from "react-icons/io5";
-const Nav = () => {
-  const dilogref = useRef();
-  const handelnav =() =>{
-    ref.current?.showModal();
-    alert("clicked");
-  }
+// Navbar.js
+import React, { useState } from 'react';
+import './nav.css';
+
+const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobile(!isMobile);
+  };
+ 
+
   return (
-    <div className="nav">
-      <h3>Arul.dev</h3>
-      <div className="navic">
-        <span onClick={handelnav}>
-           <IoReorderThreeOutline />
-        </span>
+    <nav className="navbar">
+      <div className="logo">Arul.dev</div>
+      <ul className={`nav-links ${isMobile ? 'mobile' : ''}`}>
+        <li><a href="/#home" onClick={toggleMobileMenu}>Home</a></li>
+        <li><a href="/#about" onClick={toggleMobileMenu}>About</a></li>
+        <li><a href="/#projects" onClick={toggleMobileMenu}>Projects</a></li>
+        <li><a href="/#contect" onClick={toggleMobileMenu}>Contact</a></li>
+      </ul>
+      <div className="hamburger" onClick={toggleMobileMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
-      <div className="list">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contect">CONTACT</a>
-      </div>
-      <dialog ref={dilogref}> 
-           <div className="dlist">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contect">CONTACT</a>
-      </div>
-      </dialog >
-    </div>
+    </nav>
   );
 };
 
-export default Nav;
+export default Navbar;
