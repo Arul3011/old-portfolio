@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">Arul.dev</div>
-      <ul className={`nav-links ${isMobile ? 'mobile' : ''}`}>
+      <ul className={`nav-links ${isMobile ? 'mobile' : 'none'}`}>
         <li><a href="/#home" onClick={toggleMobileMenu}>Home</a></li>
         <li><a href="/#about" onClick={toggleMobileMenu}>About</a></li>
         <li><a href="/#projects" onClick={toggleMobileMenu}>Projects</a></li>

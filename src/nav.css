@@ -63,7 +63,6 @@
       left: 10;
       background-color: #fff;
    width: 80%;
-  
     box-shadow: 1px 1px 10px gray;
       margin: auto;
       height: calc(50vh - 80px);
@@ -72,16 +71,40 @@
       align-items: center;
       display: none;
       z-index: 1;
-      /* transition: all ease-in-out 0.4s; */
+      animation: navani 0.4s ease-in-out forwards;
+      overflow: hidden; 
  
     }
   
     .nav-links.mobile {
       display: flex;
     }
-  
+    .nav-links.none{
+    animation: closeNavani 2s ease-in-out forwards;
+  /* background: #000; */
+    }
     .hamburger {
       display: flex;
     }
   }
   
+  @keyframes navani{
+    from {
+      height: 0px;
+      /* width: 0px; */
+    }
+    to {
+      height: calc(60vh - 80px);
+      /* width: 100%; */
+    }
+  }
+  @keyframes closeNavani {
+    from {
+      height: calc(60vh - 80px);
+      /* width: 100%; */
+    }
+    to {
+      height: 0px;
+      /* width: 0px; */
+    }
+  }
