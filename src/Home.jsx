@@ -29,7 +29,7 @@ const Home = () => {
  
 
   return (
-    <section>
+    <section className="home-part">
       <div  className="home">
         <div className="one" data-aos="zoom-in-up">
           <h1>Hi..There👋</h1>
