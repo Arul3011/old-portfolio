@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "./assets/photo_2024-09-14_14-53-42.jpg";
+import logo from "/IMG_20250410_131417-removebg-preview.png";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -72,6 +72,10 @@ const Home = () => {
             <img src="https://skillicons.dev/icons?i=expressjs" alt="" />
             <img src="https://skillicons.dev/icons?i=nodejs" alt="" />
             <img src="https://skillicons.dev/icons?i=flask" alt="" />
+            <img src="https://skillicons.dev/icons?i=docker" alt="" />
+            <img src="https://skillicons.dev/icons?i=nginx" alt="" />
+            <img src="https://skillicons.dev/icons?i=linux" alt="" />
+            {/* <img src="https://skillicons.dev/icons?i=githubactions" alt="" /> */}
           </div>
         </div>
       </div>
